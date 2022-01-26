@@ -1,0 +1,96 @@
+body{
+  height: 220px;
+  background-image:linear-gradient(yellow,blue);
+background-color: #47d147;
+margin: 5%;
+height:300%;
+font-size:22px;
+font-family:arial;
+}
+ul{
+display: flex;
+padding-left: 0;
+list-style-type: none;
+font-weight:bold;
+}
+li{
+height: 0.7%;
+cursor:pointer;
+    width: 20%;
+    text-align: center;
+    background-color: lightgreen;
+    margin-right: 0.5%;
+padding:1% 0;
+}
+.about {
+  background:#ccccff;
+  padding:50px;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  align-items: center;
+}
+.sec2{
+display:flex;
+}
+.sec2 #div1{
+background-image:url('sec2.jfif'); 
+min-height: 310px;
+    width: 57%;
+background-size: cover;
+  background-position: bottom right;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+margin-right:23px;
+}
+.sec2 #div1 h1,.sec2 #div1 p{
+background-color: lightblue; 
+padding: 6px;
+}
+.sec2 #div1 p{
+font-size:30px;
+}
+.sec2 #div2{
+text-align: center;
+align-items: center;
+    justify-items: center;
+}
+.sec2 #div2 p{
+height: 197px;
+    width: 410px;
+background-color: lightgrey; 
+align-items: center;
+postion:relative;
+top:1%;
+    align-content: center;
+}
+#p1{
+margin-top:0;
+background-image:url(weekend.jfif);
+background-size: cover;
+}
+#p2{
+margin-bottom:0;
+background-image:url(fj.jfif); 
+background-size: cover;
+color:White;
+}
+#p1 span, #p2 span{
+padding:10px;
+font-size:30px;
+
+}
+#last p{
+margin-top:2%;
+margin-bottom:0;
+background-color:Lightblue;
+}
+#last img {
+    padding: 20 20 0 4;
+}
+#last #fifth{
+padding:21 0 0 0;
+}
+ 
